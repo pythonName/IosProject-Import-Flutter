@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C376FD072292651300F97D17 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C376FD052292651300F97D17 /* CustomNavigationController.m */; };
 		C3D2938E229253AB0015B03C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2938D229253AB0015B03C /* AppDelegate.m */; };
 		C3D29391229253AB0015B03C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D29390229253AB0015B03C /* ViewController.m */; };
 		C3D29394229253AB0015B03C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D29392229253AB0015B03C /* Main.storyboard */; };
 		C3D29396229253AC0015B03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D29395229253AC0015B03C /* Assets.xcassets */; };
 		C3D29399229253AC0015B03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D29397229253AC0015B03C /* LaunchScreen.storyboard */; };
 		C3D2939C229253AC0015B03C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D2939B229253AC0015B03C /* main.m */; };
-		C3D293A4229253DC0015B03C /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D293A3229253DC0015B03C /* CustomNavigationController.m */; };
 		C3D293A9229253EF0015B03C /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C3D293A6229253EF0015B03C /* Debug.xcconfig */; };
 		C3D293AA229253EF0015B03C /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C3D293A7229253EF0015B03C /* Release.xcconfig */; };
 		C3D293AB229253EF0015B03C /* Flutter.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C3D293A8229253EF0015B03C /* Flutter.xcconfig */; };
@@ -42,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C376FD052292651300F97D17 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		C376FD062292651300F97D17 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
 		C3D29389229253AB0015B03C /* ios_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D2938C229253AB0015B03C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3D2938D229253AB0015B03C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		C3D29398229253AC0015B03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3D2939A229253AC0015B03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3D2939B229253AC0015B03C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C3D293A2229253DC0015B03C /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
-		C3D293A3229253DC0015B03C /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
 		C3D293A6229253EF0015B03C /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		C3D293A7229253EF0015B03C /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		C3D293A8229253EF0015B03C /* Flutter.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
@@ -98,12 +98,12 @@
 		C3D2938B229253AB0015B03C /* ios_demo */ = {
 			isa = PBXGroup;
 			children = (
-				C3D293A2229253DC0015B03C /* CustomNavigationController.h */,
-				C3D293A3229253DC0015B03C /* CustomNavigationController.m */,
 				C3D2938C229253AB0015B03C /* AppDelegate.h */,
 				C3D2938D229253AB0015B03C /* AppDelegate.m */,
 				C3D2938F229253AB0015B03C /* ViewController.h */,
 				C3D29390229253AB0015B03C /* ViewController.m */,
+				C376FD062292651300F97D17 /* CustomNavigationController.h */,
+				C376FD052292651300F97D17 /* CustomNavigationController.m */,
 				C3D29392229253AB0015B03C /* Main.storyboard */,
 				C3D29395229253AC0015B03C /* Assets.xcassets */,
 				C3D29397229253AC0015B03C /* LaunchScreen.storyboard */,
@@ -239,7 +239,7 @@
 			files = (
 				C3D29391229253AB0015B03C /* ViewController.m in Sources */,
 				C3D2939C229253AC0015B03C /* main.m in Sources */,
-				C3D293A4229253DC0015B03C /* CustomNavigationController.m in Sources */,
+				C376FD072292651300F97D17 /* CustomNavigationController.m in Sources */,
 				C3D2938E229253AB0015B03C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N59GEH37WQ;
+				FLUTTER_APPLICATION_PATH = "/Users/loary/Documents/GitHub_MySelf/IosProject-Import-Flutter/flutter_module";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
@@ -411,6 +412,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N59GEH37WQ;
+				FLUTTER_APPLICATION_PATH = "/Users/loary/Documents/GitHub_MySelf/IosProject-Import-Flutter/flutter_module";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
